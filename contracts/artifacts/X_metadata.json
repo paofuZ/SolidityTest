@@ -6,8 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "greet",
+				"name": "name",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -32,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1.Hello_World.sol": "HelloWorld"
+			"contracts/25_ Constructor.sol": "X"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1.Hello_World.sol": {
-			"keccak256": "0xd9ff29e34cb08d5ba0d8a1353911abd823397b7062015a3784d4c92f5e57afe6",
+		"contracts/25_ Constructor.sol": {
+			"keccak256": "0xaddedd42643d54f45d0f9391986f2147c1776af2453000f785c47531fdaa5235",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e1f1c8c857cc533640e6d93c55f1409f4636edcb4a92ee883c9fcfbb4b10bc8d",
-				"dweb:/ipfs/QmRydguFfsEr32xc71cT3TUoHfuB5QFJsmHfHAQCa2uMGE"
+				"bzz-raw://1e44c123c17ed09090e68b87fb01d9103fbebb5804ecdec1344a8c3e98b2d498",
+				"dweb:/ipfs/QmVDxVVtVQUCQ8vHwj9HfFW9nKurY3WuosVwQfWegUBt7m"
 			]
 		}
 	},

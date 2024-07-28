@@ -7,12 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "greet",
+				"name": "forever",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "i",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -32,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1.Hello_World.sol": "HelloWorld"
+			"contracts/9. Gas.sol": "Gas"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1.Hello_World.sol": {
-			"keccak256": "0xd9ff29e34cb08d5ba0d8a1353911abd823397b7062015a3784d4c92f5e57afe6",
+		"contracts/9. Gas.sol": {
+			"keccak256": "0xc4adb1e6be2a2c8967093256ba1ec256346f0d1fdfef250a7468a1c806d15186",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e1f1c8c857cc533640e6d93c55f1409f4636edcb4a92ee883c9fcfbb4b10bc8d",
-				"dweb:/ipfs/QmRydguFfsEr32xc71cT3TUoHfuB5QFJsmHfHAQCa2uMGE"
+				"bzz-raw://2dcba2a545252adfaf58c85cbd003b9952ce3ae2cf1c1e01784468f243563ade",
+				"dweb:/ipfs/QmfJxVkJgFAcx8RG4prujs6GBaDccgcQ1xHNRvdrd5o7G2"
 			]
 		}
 	},
